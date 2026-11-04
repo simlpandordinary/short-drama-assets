@@ -17,13 +17,29 @@
 ## 目录结构
 
 ```
-['SKILL.md', 'agents/openai.yaml', 'references/asset-review-checklist.md', 'references/character-and-look.md', 'references/continuity-delta.md', 'references/continuity-lock.md', 'references/era-anchors.md', 'references/identity-vs-variant.md', 'references/location-and-view.md', 'references/occurrence-extraction.md', 'references/prop-and-state.md', 'references/stage-contract.md', 'references/voice-direction.md', 'LICENSE', 'README.upstream.md']
+├── LICENSE
+├── README.upstream.md
+├── SKILL.md
+├── references/
+├── asset-review-checklist.md
+├── character-and-look.md
+├── continuity-delta.md
+├── continuity-lock.md
+├── era-anchors.md
+├── identity-vs-variant.md
+├── location-and-view.md
+├── occurrence-extraction.md
+├── prop-and-state.md
+├── stage-contract.md
+└── voice-direction.md
+└── agents/
+└── openai.yaml
 ```
 
 - `SKILL.md` 是技能入口（触发条件 / 工作流 / 约束），安装时必须位于技能根目录。
 - `references/`、`scripts/`、`assets/` 为该技能自带的参考文档、脚本与素材。
 - `README.upstream.md` 为上游仓库原始说明，保留出处与版权信息。
-- `LICENSE` 为上游许可证原文。
+- `LICENSE` 为上游许可证原件。
 
 ## 安装
 
@@ -36,8 +52,6 @@ git clone https://github.com/simlpandordinary/short-drama-assets.git ~/.workbudd
 也可以直接对 AI 说：「把 <https://github.com/simlpandordinary/short-drama-assets> 装成 Skill」。
 
 安装后用自然语言触发，例如「Drama Skills · short-drama-assets」「用 short-drama-assets 帮我处理这个任务」。
-
-本仓库仅含 Drama Skills 技能包中的 `short-drama` 家族技能之一，其余 10 个技能各自独立成仓。
 
 ## 版权
 
