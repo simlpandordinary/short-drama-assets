@@ -21,19 +21,19 @@
 ├── README.upstream.md
 ├── SKILL.md
 ├── references/
-├── asset-review-checklist.md
-├── character-and-look.md
-├── continuity-delta.md
-├── continuity-lock.md
-├── era-anchors.md
-├── identity-vs-variant.md
-├── location-and-view.md
-├── occurrence-extraction.md
-├── prop-and-state.md
-├── stage-contract.md
-└── voice-direction.md
+│   ├── asset-review-checklist.md
+│   ├── character-and-look.md
+│   ├── continuity-delta.md
+│   ├── continuity-lock.md
+│   ├── era-anchors.md
+│   ├── identity-vs-variant.md
+│   ├── location-and-view.md
+│   ├── occurrence-extraction.md
+│   ├── prop-and-state.md
+│   ├── stage-contract.md
+│   └── voice-direction.md
 └── agents/
-└── openai.yaml
+    └── openai.yaml
 ```
 
 - `SKILL.md` 是技能入口（触发条件 / 工作流 / 约束），安装时必须位于技能根目录。
